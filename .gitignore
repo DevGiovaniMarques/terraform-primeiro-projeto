@@ -1,0 +1,22 @@
+# Diretório oculto .terraform
+/.terraform
+
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.backup
+
+# Arquivos de plano de execução do Terraform
+*.tfplan
+
+# Arquivos de variáveis do Terraform (se você usar variáveis separadas)
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars
+
+# Logs de saída do Terraform
+terraform.log
+
+# Cache e diretórios temporários
+/.terraform-cache
+/.terraform.tfstate.lock.info
+*.terraform.lock.hcl
